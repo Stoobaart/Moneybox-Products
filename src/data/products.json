@@ -49,7 +49,7 @@
     {
       "id": "lifetime-isa",
       "name": "Lifetime ISA",
-      "description": "Save for your first home and get a 25% government bonus.",
+      "description": "Save for your first home",
       "asset": "lifetime_isa.svg",
       "categoryId": "home-buying"
     },
