@@ -2,21 +2,15 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: Inter, system-ui, sans-serif;
-  background: #f8fafc;
-  color: #0f172a;
-}
-
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
 }
 
 button {
   font: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
 }

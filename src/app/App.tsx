@@ -1,3 +1,10 @@
-export default function App() {
-  return <div>Moneybox Products</div>
+import { Layout } from '../shared/components/Layout'
+import { Header } from '../shared/components/Header'
+
+export const App = () => {
+  return (
+    <Layout>
+      <Header />
+    </Layout>
+  )
 }
