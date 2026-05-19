@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "savings",
+      "title": "Savings"
+    },
+    {
+      "id": "home-buying",
+      "title": "Home Buying"
+    },
+    {
+      "id": "investments",
+      "title": "Investments"
+    },
+    {
+      "id": "pension",
+      "title": "Pension"
+    }
+  ],
+  "products": [
+    {
+      "id": "simple-saver",
+      "name": "Simple Saver",
+      "description": "An easy-access savings account with no lock-in.",
+      "asset": "simple_saver.svg",
+      "categoryId": "savings"
+    },
+    {
+      "id": "32-day-notice",
+      "name": "32 Day Notice",
+      "description": "Earn a higher rate by giving 32 days notice to withdraw.",
+      "asset": "32_day_notice.svg",
+      "categoryId": "savings"
+    },
+    {
+      "id": "95-day-notice",
+      "name": "95 Day Notice",
+      "description": "Maximise your savings rate with a 95 day notice period.",
+      "asset": "95_day_notice.svg",
+      "categoryId": "savings"
+    },
+    {
+      "id": "open-access-cash-isa",
+      "name": "Open Access Cash ISA",
+      "description": "A flexible, tax-free cash ISA with easy access.",
+      "asset": "open_access_cash_isa.svg",
+      "categoryId": "savings"
+    },
+    {
+      "id": "lifetime-isa",
+      "name": "Lifetime ISA",
+      "description": "Save for your first home and get a 25% government bonus.",
+      "asset": "lifetime_isa.svg",
+      "categoryId": "home-buying"
+    },
+    {
+      "id": "cash-isa",
+      "name": "Cash ISA",
+      "description": "A tax-free savings account.",
+      "asset": "cash_isa.svg",
+      "categoryId": "investments"
+    },
+    {
+      "id": "stocks-shares-isa",
+      "name": "Stocks & Shares ISA",
+      "description": "Invest in a tax-efficient way.",
+      "asset": "stocks_shares_isa.svg",
+      "categoryId": "investments"
+    },
+    {
+      "id": "junior-isa",
+      "name": "Junior ISA",
+      "description": "A tax-free investment account for children.",
+      "asset": "junior_isa.svg",
+      "categoryId": "investments"
+    },
+    {
+      "id": "general-investment-account",
+      "name": "General Investment Account",
+      "description": "Invest without ISA limits in a flexible account.",
+      "asset": "general_investment_account.svg",
+      "categoryId": "investments"
+    },
+    {
+      "id": "personal-pension",
+      "name": "Personal Pension",
+      "description": "Save for retirement with tax relief on contributions.",
+      "asset": "personal_pension.svg",
+      "categoryId": "pension"
+    }
+  ]
+}
