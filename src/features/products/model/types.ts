@@ -2,13 +2,13 @@ export type Product = {
   id: string;
   name: string;
   description: string;
-  asset: string;
+  image: string;
   categoryId: string;
 };
 
 export type Category = {
   id: string;
-  name: string;
+  title: string;
 }
 
 export type ProductData = {
