@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ProductAccordionItem } from '../../products/components/ProductAccordionItem'
-import type { Category, Product } from '../../products/model/types'
+import type { Category, Product } from '../../accounts-explorer/model/types'
 import styles from './CategorySection.module.css'
 
 type CategorySectionProps = {

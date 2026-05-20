@@ -1,5 +1,5 @@
 import styles from './ProductAccordionItem.module.css'
-import type { Product } from '../model/types'
+import type { Product } from '../../accounts-explorer/model/types'
 
 type Props = {
   product: Product

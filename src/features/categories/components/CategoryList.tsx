@@ -1,4 +1,4 @@
-import type { Category, Product } from '../../products/model/types'
+import type { Category, Product } from '../../accounts-explorer/model/types'
 import { CategorySection } from './CategorySection'
 import styles from './CategoryList.module.css'
 
