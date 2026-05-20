@@ -10,7 +10,7 @@ type Props = {
 export const ProductAccordionItem = ({ product, isOpen, onClick }: Props) => {
   return (
     <div className={styles.item}>
-      <button className={styles.header} onClick={onClick} aria-expanded={isOpen}>
+      <button type="button" className={styles.header} onClick={onClick} aria-expanded={isOpen}>
         <div className={styles.text}>
           <h3 className={styles.name}>{product.name}</h3>
         </div>
