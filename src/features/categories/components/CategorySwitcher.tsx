@@ -25,7 +25,7 @@ export const CategorySwitcher = ({
         ←
       </button>
 
-      <h2 className={styles.title}>Explore Accounts</h2>
+      <p className={styles.title}>Explore Accounts</p>
 
       <button
         type="button"
