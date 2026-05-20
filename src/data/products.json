@@ -11,10 +11,6 @@
     {
       "id": "investments",
       "title": "Investments"
-    },
-    {
-      "id": "pensions",
-      "title": "Pensions"
     }
   ],
   "products": [
@@ -86,7 +82,7 @@
       "name": "Personal Pension",
       "description": "Save for retirement with tax relief on contributions.",
       "image": "personal_pension.svg",
-      "categoryId": "pensions"
+      "categoryId": "investments"
     }
   ]
 }
