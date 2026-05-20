@@ -2,10 +2,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: #111827;
+  background-color: #f8fafc;
+
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: #1a1a1a;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 button {

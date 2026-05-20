@@ -1,47 +1,49 @@
 .section {
   background: #ffffff;
-  border: 1px solid #eaeaea;
-  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  padding: 20px;
 
-  height: 55px;
+  overflow: hidden;
 
-  padding: 16px;
+  transition:
+    max-height 0.3s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 
-  transition: all 0.2s ease;
-
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  max-height: 72px;
 }
 
 .section:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.06),
+    0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.expanded {
+  max-height: 1000px;
+
+  box-shadow:
+    0 10px 28px rgba(37, 99, 235, 0.12),
+    0 2px 6px rgba(37, 99, 235, 0.08);
 }
 
 .header {
   width: 100%;
-  text-align: left;
-
-  background: none;
-  border: none;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 0;
-  margin-bottom: 12px;
-
-  cursor: pointer;
+  text-align: left;
 }
 
 .title {
   margin: 0;
-
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .content {
-  margin-top: 12px;
-}
-
-.expanded {
-  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.15);
-  height: auto;
+  margin-top: 16px;
 }
